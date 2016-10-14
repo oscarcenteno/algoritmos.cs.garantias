@@ -1,5 +1,7 @@
 # algoritmos.cs.garantias
 
+[![Build status](https://ci.appveyor.com/api/projects/status/lp5cv5mnb0pk6ek0?svg=true)](https://ci.appveyor.com/project/oscarcenteno/algoritmos-cs-garantias)
+
 # Descripcion
 Contiene algoritmos escritos de manera inicial para aplicar los refactorings aprendidos en www.SoftwareMantenible.com
 
