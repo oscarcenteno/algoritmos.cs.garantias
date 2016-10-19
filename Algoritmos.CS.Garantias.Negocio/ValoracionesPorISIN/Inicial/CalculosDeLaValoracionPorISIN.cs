@@ -29,9 +29,10 @@ namespace Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.Inicial
             else
                 elPorcentajeDeCoberturaRevisado = elPorcentajeCobertura;
 
-            // Los saldos en UDES se colonizan según el tipo de cambio de hoy, si no, el de ayer.
+            // Solamente se convierten los UDES que están anotados en cuenta. Los que no están anotados ya están colonizados.
             decimal elMontoConvertido;
             if (elTipoDeMoneda == Monedas.UDES & elSaldoEstaAnotadoEnCuenta)
+            // Los saldos en UDES se colonizan según el tipo de cambio de hoy, si no, el de ayer.
                 if (elTipoDeCambioDeUDESDeHoy > 0)
                     elMontoConvertido = elMontoNominalDelSaldo * elTipoDeCambioDeUDESDeHoy;
                 else
@@ -48,7 +49,6 @@ namespace Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.Inicial
             laValoracion.DiasAlVencimiento = losDiasAlVencimiento;
             laValoracion.FechaDeVencimiento = laFechaDeVencimientoDelValorOficial;
             laValoracion.ValorDeMercado = elValorDeMercado;
-            laValoracion.TipoDeMoneda = elTipoDeMoneda;
             laValoracion.MontoNominal = elMontoConvertido;
             laValoracion.PrecioLimpio = elPrecioLimpioDelVectorDePrecios;
             laValoracion.PorcentajeCobertura = elPorcentajeDeCoberturaRevisado;

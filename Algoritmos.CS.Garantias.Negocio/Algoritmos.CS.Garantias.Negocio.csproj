@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Saldos\Inicial\CalculosDeLaValoracionPorEntidad.cs" />
+    <Compile Include="Saldos\Inicial\Emisor.cs" />
+    <Compile Include="Saldos\Inicial\ValoracionDeUnaEntidad.cs" />
     <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValoracionesPorISIN\Inicial\Monedas.cs" />
     <Compile Include="ValoracionesPorISIN\Inicial\ValoracionPorISIN.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
