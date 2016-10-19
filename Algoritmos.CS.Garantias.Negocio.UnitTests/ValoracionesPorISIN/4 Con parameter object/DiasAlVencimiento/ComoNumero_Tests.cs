@@ -9,19 +9,24 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
     {
         private decimal elResultadoEsperado;
         private decimal elResultadoObtenido;
-        private DateTime laFechaActual;
-        private DateTime laFechaDeVencimiento;
+        private DatosDeLaValoracionPorISIN losDatos;
 
         [TestMethod]
-        public void ComoNumero_DosFechas_LosDiasDeDiferencia() 
+        public void ComoNumero_DosFechas_LosDiasDeDiferencia()
         {
             elResultadoEsperado = 221;
 
-            laFechaDeVencimiento = new DateTime(2016, 10, 10);
-            laFechaActual = new DateTime(2016, 3, 3);
-            elResultadoObtenido = new DiasAlVencimiento(laFechaDeVencimiento, laFechaActual).ComoNumero();
+            InicialiceLasFechas();
+            elResultadoObtenido = new DiasAlVencimiento(losDatos).ComoNumero();
 
             Assert.AreEqual(elResultadoEsperado, elResultadoObtenido);
+        }
+
+        private void InicialiceLasFechas()
+        {
+            losDatos = new DatosDeLaValoracionPorISIN();
+            losDatos.FechaDeVencimientoDelValorOficial = new DateTime(2016, 10, 10);
+            losDatos.FechaActual = new DateTime(2016, 3, 3);
         }
     }
 }
