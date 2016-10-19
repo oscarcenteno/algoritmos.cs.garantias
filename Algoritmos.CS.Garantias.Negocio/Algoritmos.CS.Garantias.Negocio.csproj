@@ -40,15 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Saldos\Inicial\CalculosDeLaValoracionPorEntidad.cs" />
-    <Compile Include="Saldos\Inicial\Emisor.cs" />
-    <Compile Include="Saldos\Inicial\ValoracionDeUnaEntidad.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\DiasAlVencimiento.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\PorcentajeDeCoberturaRevisado.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\Monedas.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\ValorDeMercado.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="ValoracionesPorISIN\2 Con funciones\Arbol de funciones.dgml" />
+    <None Include="ValoracionesPorISIN\3 Con objetos\Arbol de objetos.dgml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

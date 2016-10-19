@@ -53,13 +53,29 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\DiasAlVencimiento_Tests.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\MontoNominal_Tests.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
-    <Compile Include="ValoracionesPorISIN\Inicial\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\2 Con funciones\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\1 Como un procedimiento\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Inicial\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\PorcentajeDeCoberturaRevisado\ComoNumero_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\3 Con objetos\ValorDeMercado\ComoNumero_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algoritmos.CS.Garantias.Negocio\Algoritmos.CS.Garantias.Negocio.csproj">
@@ -67,9 +83,7 @@
       <Name>Algoritmos.CS.Garantias.Negocio</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ValoracionesDeISINES\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
