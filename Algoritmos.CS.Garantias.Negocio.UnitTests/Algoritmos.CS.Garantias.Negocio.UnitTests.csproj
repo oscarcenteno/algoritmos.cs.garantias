@@ -53,6 +53,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN\PorcentajeDeCobertura_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN\ValorMercado_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\PorcentajeDeCoberturaRevisado\ComoNumero_Tests.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\ValorDeMercado\ComoNumero_Tests.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\AporteDeGarantia_Tests.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\Escenarios.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN\ISIN_Tests.cs" />

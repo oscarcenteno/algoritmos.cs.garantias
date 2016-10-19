@@ -40,6 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDelAporte.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\DiasAlVencimiento.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\PorcentajeDeCoberturaRevisado.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\4 Con parameter object\ValorDeMercado.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\Monedas.cs" />
@@ -59,7 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ValoracionesPorISIN\2 Con funciones\Arbol de funciones.dgml" />
+    <None Include="ValoracionesPorISIN\4 Con parameter object\Arbol de objetos.dgml" />
     <None Include="ValoracionesPorISIN\3 Con objetos\Arbol de objetos.dgml" />
+    <None Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\Parameter Objects.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
