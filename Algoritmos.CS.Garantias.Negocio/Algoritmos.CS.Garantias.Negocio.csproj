@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\DiasAlVencimiento.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDelAporte.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\PorcentajeDeCoberturaRevisado.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\ValorDeMercado.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDelAporte.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
@@ -67,6 +74,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ValoracionesPorISIN\2 Con funciones\Arbol de funciones.dgml" />
+    <None Include="ValoracionesPorISIN\5 Con tell dont ask\Arbol de objetos.dgml" />
+    <None Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\Parameter Objects.cd" />
     <None Include="ValoracionesPorISIN\4 Con parameter object\Arbol de objetos.dgml" />
     <None Include="ValoracionesPorISIN\3 Con objetos\Arbol de objetos.dgml" />
     <None Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\Parameter Objects.cd" />
