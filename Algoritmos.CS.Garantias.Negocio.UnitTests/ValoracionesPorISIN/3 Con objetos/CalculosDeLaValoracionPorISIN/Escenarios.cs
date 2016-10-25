@@ -31,7 +31,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConObjetos.Calc
             elTipoDeCambioDeUDESDeHoy = 750;
             elTipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
+            return new ValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
         }
 
         public ValoracionPorISIN InicialiceUnaValoracionEnColonesYNoCumpleLosDiasMinimos()
@@ -48,7 +48,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConObjetos.Calc
             elTipoDeCambioDeUDESDeHoy = 750;
             elTipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
+            return new ValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoNoEstaAnotadoEnCuenta()
@@ -65,7 +65,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConObjetos.Calc
             elTipoDeCambioDeUDESDeHoy = 750;
             elTipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
+            return new ValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoEstaAnotadoEnCuenta()
@@ -82,7 +82,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConObjetos.Calc
             elTipoDeCambioDeUDESDeHoy = 750;
             elTipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
+            return new ValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoEstaAnotadoEnCuentaYNoHayTipoDeCambioDeHoy()
@@ -99,7 +99,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConObjetos.Calc
             elTipoDeCambioDeUDESDeHoy = 0;
             elTipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
+            return new ValoracionPorISIN(elISIN, laFechaActual, laFechaDeVencimientoDelValorOficial, losDiasMinimosAlVencimientoDelEmisor, elPorcentajeCobertura, elPrecioLimpioDelVectorDePrecios, elTipoDeMoneda, elSaldoEstaAnotadoEnCuenta, elMontoNominalDelSaldo, elTipoDeCambioDeUDESDeHoy, elTipoDeCambioDeUDESDeAyer);
         }
     }
 }

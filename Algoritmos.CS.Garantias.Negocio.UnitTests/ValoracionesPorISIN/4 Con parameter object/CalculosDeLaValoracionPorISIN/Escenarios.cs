@@ -17,12 +17,12 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
             losDatos.PorcentajeCobertura = 0.8M;
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.Colon;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 3578000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(losDatos);
+            return new ValoracionPorISIN(losDatos);
         }
 
         public ValoracionPorISIN InicialiceUnaValoracionEnColonesYNoCumpleLosDiasMinimos()
@@ -35,12 +35,12 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
             losDatos.PorcentajeCobertura = 0.8M;
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.Colon;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 3578000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(losDatos);
+            return new ValoracionPorISIN(losDatos);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoNoEstaAnotadoEnCuenta()
@@ -53,12 +53,12 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
             losDatos.PorcentajeCobertura = 0.8M;
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = false;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = false;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(losDatos);
+            return new ValoracionPorISIN(losDatos);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoEstaAnotadoEnCuenta()
@@ -71,12 +71,12 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
             losDatos.PorcentajeCobertura = 0.8M;
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(losDatos);
+            return new ValoracionPorISIN(losDatos);
         }
 
         public ValoracionPorISIN UnaValoracionEnUDESYElSaldoEstaAnotadoEnCuentaYNoHayTipoDeCambioDeHoy()
@@ -89,12 +89,12 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConParameterObj
             losDatos.PorcentajeCobertura = 0.8M;
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 0;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
 
-            return CalculosDeLaValoracionPorISIN.GenereLaValoracionPorISIN(losDatos);
+            return new ValoracionPorISIN(losDatos);
         }
     }
 }

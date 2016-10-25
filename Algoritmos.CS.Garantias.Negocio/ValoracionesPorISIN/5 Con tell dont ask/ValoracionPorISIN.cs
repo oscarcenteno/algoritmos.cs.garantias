@@ -4,38 +4,29 @@
     {
         private decimal elValorDeMercado;
         private decimal elPorcentajeDeCoberturaRevisado;
-        private DatosDelAporte losDatosDelAporte;
+        private string elISIN;
 
         // - Las asignaciones de parámetros a propiedades se realizan en el mismo 
         //  constructor (ej. ISIN)
-        // - Las variables locales son variables de instancia (ej. elValorDeMercado)
         // - Las asignacion de variables locales a propiedades son el contenido de 
         //  dichas propiedades que se convierten en ReadOnly (ej. ValorDeMercado)
         // - Si una propiedad se asigna con una función, entonces la propiedad se hace 
         //  ReadOnly y tiene el contenido de dicha función (ej. AporteDeGarantia)
         public ValoracionPorISIN(DatosDeLaValoracionPorISIN losDatos)
         {
-            ISIN = losDatos.ISIN;
+            elISIN = losDatos.ISIN;
             elValorDeMercado = ObtengaElValorDeMercado(losDatos);
             elPorcentajeDeCoberturaRevisado = ObtengaElPorcentajeDeCoberturaRevisado(losDatos);
-
-            // Nuevo Parameter Object
-            losDatosDelAporte = new DatosDelAporte();
-            losDatosDelAporte.ValorDeMercado = elValorDeMercado;
-            losDatosDelAporte.PorcentajeCobertura = elPorcentajeDeCoberturaRevisado;
         }
 
-        private static decimal ObtengaElValorDeMercado(DatosDeLaValoracionPorISIN losDatos)
+        public string ISIN
         {
-            return new ValorDeMercado(losDatos).ComoNumero();
+            get
+            {
+                return elISIN;
+            }
         }
 
-        private static decimal ObtengaElPorcentajeDeCoberturaRevisado(DatosDeLaValoracionPorISIN losDatos)
-        {
-            return new PorcentajeDeCoberturaRevisado(losDatos).ComoNumero();
-        }
-
-        public string ISIN { get; }
         public decimal ValorDeMercado
         {
             get
@@ -56,8 +47,18 @@
         {
             get
             {
-                return losDatosDelAporte.AporteDeGarantia;
+                return elValorDeMercado * elPorcentajeDeCoberturaRevisado;
             }
+        }
+
+        private static decimal ObtengaElValorDeMercado(DatosDeLaValoracionPorISIN losDatos)
+        {
+            return new ValorDeMercado(losDatos).ComoNumero();
+        }
+
+        private static decimal ObtengaElPorcentajeDeCoberturaRevisado(DatosDeLaValoracionPorISIN losDatos)
+        {
+            return new PorcentajeDeCoberturaRevisado(losDatos).ComoNumero();
         }
     }
 }

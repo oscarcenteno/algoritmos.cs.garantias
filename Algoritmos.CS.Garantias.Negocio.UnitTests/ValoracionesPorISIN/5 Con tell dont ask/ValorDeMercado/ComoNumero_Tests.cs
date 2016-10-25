@@ -26,7 +26,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.
             losDatos = new DatosDeLaValoracionPorISIN();
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.Colon;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 3578000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
@@ -48,7 +48,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.
             losDatos = new DatosDeLaValoracionPorISIN();
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = false;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = false;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
@@ -70,7 +70,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.
             losDatos = new DatosDeLaValoracionPorISIN();
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 750;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;
@@ -92,7 +92,7 @@ namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.
             losDatos = new DatosDeLaValoracionPorISIN();
             losDatos.PrecioLimpioDelVectorDePrecios = 80;
             losDatos.TipoDeMoneda = Monedas.UDES;
-            losDatos.SaldoEstaAnotadoEnCuenta = true;
+            losDatos.ElSaldoEstaAnotadoEnCuenta = true;
             losDatos.MontoNominalDelSaldo = 1000;
             losDatos.TipoDeCambioDeUDESDeHoy = 0;
             losDatos.TipoDeCambioDeUDESDeAyer = 745;

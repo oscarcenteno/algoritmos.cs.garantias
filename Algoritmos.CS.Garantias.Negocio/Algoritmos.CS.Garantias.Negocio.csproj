@@ -42,20 +42,16 @@
   <ItemGroup>
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Monedas.cs" />
-    <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDelAporte.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\PorcentajeDeCoberturaRevisado.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\ValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\ValorDeMercado.cs" />
-    <Compile Include="ValoracionesPorISIN\4 Con parameter object\CalculosDeLaValoracionPorISIN.cs" />
-    <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDelAporte.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\Monedas.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\PorcentajeDeCoberturaRevisado.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\ValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\4 Con parameter object\ValorDeMercado.cs" />
-    <Compile Include="ValoracionesPorISIN\3 Con objetos\CalculosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\Monedas.cs" />
     <Compile Include="ValoracionesPorISIN\3 Con objetos\PorcentajeDeCoberturaRevisado.cs" />
