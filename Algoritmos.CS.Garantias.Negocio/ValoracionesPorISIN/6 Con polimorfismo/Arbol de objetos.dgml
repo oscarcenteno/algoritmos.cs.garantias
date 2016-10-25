@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="10/25/2016 19:44:12" Bounds="0,0,467.536666666667,255" CodeSchemaProperty_StrongName="Algoritmos.CS.Garantias.Negocio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="Algoritmos.CS.Garantias.Negocio" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(bb0f30a7-510c-4f9f-9853-a4be2a91fdfd.OutputPath)" Group="Expanded" Label="Algoritmos.CS.Garantias.Negocio.dll" />
-    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="20,40,427.536666666667,195" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConParameterObject" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConParameterObject" />
-    <Node Id="@6" Category="CodeSchema_Class" Bounds="244,190,150.17,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DiasAlVencimiento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DiasAlVencimiento" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/4 Con parameter object/DiasAlVencimiento.cs&quot; StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=34)" />
-    <Node Id="@7" Category="CodeSchema_Class" Bounds="210.633333333333,135,216.903333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PorcentajeDeCoberturaRevisado" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PorcentajeDeCoberturaRevisado" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/4 Con parameter object/PorcentajeDeCoberturaRevisado.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=46)" />
-    <Node Id="@8" Category="CodeSchema_Class" Bounds="244.616666666667,80,148.936666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ValoracionPorISIN" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ValoracionPorISIN" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/4 Con parameter object/ValoracionPorISIN.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=34)" />
-    <Node Id="@9" Category="CodeSchema_Class" Bounds="40,135,140.17,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ValorDeMercado" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ValorDeMercado" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/4 Con parameter object/ValorDeMercado.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=31)" />
+    <Node Id="7773948c-812f-47e7-a5c2-ab252a393d0f1" Category="Comment" Bounds="3.15348290058637E-06,140.500052848307,245.886666666667,36.5533333333333" Label="Note que no se incluyen los enumerados ni las estructuras de datos retornadas." />
+    <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="10/19/2016 22:06:52" Bounds="-117.16,-172.000080714224,467.536666666667,255" CodeSchemaProperty_StrongName="Algoritmos.CS.Garantias.Negocio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="Algoritmos.CS.Garantias.Negocio" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(bb0f30a7-510c-4f9f-9853-a4be2a91fdfd.OutputPath)" Group="Expanded" Label="Algoritmos.CS.Garantias.Negocio.dll" />
+    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-97.16,-132.000080714224,427.536666666667,195" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="126.84,17.9999192857756,150.17,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DiasAlVencimiento" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DiasAlVencimiento" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/6 Con polimorfismo/DiasAlVencimiento.cs&quot; StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=34)" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="93.4733333333334,-37.0000807142244,216.903333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PorcentajeDeCoberturaRevisado" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PorcentajeDeCoberturaRevisado" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/6 Con polimorfismo/PorcentajeDeCoberturaRevisado.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=46)" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="127.456666666667,-92.0000807142244,148.936666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ValoracionPorISIN" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ValoracionPorISIN" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/6 Con polimorfismo/ValoracionPorISIN.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=34)" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="-77.16,-37.0000807142244,140.17,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ValorDeMercado" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ValorDeMercado" SourceLocation="(Assembly=&quot;file:///C:/Users/centenoro/Source/Repos/algoritmos.cs.garantias/Algoritmos.CS.Garantias.Negocio/ValoracionesPorISIN/6 Con polimorfismo/ValorDeMercado.cs&quot; StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=31)" />
   </Nodes>
   <Links>
     <Link Source="@2" Target="@4" Category="Contains" FetchingParent="@2" />
+    <Link Source="@4" Target="@5" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@6" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@7" Category="Contains" FetchingParent="@4" />
     <Link Source="@4" Target="@8" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@9" Category="Contains" FetchingParent="@4" />
-    <Link Source="@7" Target="@6" Category="CodeSchema_Calls" Bounds="319.084991455078,160,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@8" Target="@7" Category="CodeSchema_Calls" Bounds="319.084991455078,105,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@8" Target="@9" Category="CodeSchema_Calls" Bounds="166.288665771484,105,105.296325683594,27.7095642089844" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@6" Target="@5" Category="CodeSchema_Calls" Bounds="201.925003051758,-12.0000810623169,0,21" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@7" Target="@6" Category="CodeSchema_Calls" Bounds="201.925003051758,-67.0000839233398,0,21.0000038146973" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@7" Target="@8" Category="CodeSchema_Calls" Bounds="49.1286697387695,-67.0000839233398,105.296333312988,27.7095642089844" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
   </Links>
   <Categories>
     <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
@@ -24,6 +25,7 @@
     <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
     <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
     <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
   </Categories>
@@ -50,6 +52,7 @@
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
@@ -72,12 +75,12 @@
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(bb0f30a7-510c-4f9f-9853-a4be2a91fdfd.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Id="Namespace=Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConParameterObject" />
+    <Alias n="3" Id="Namespace=Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo" />
     <Alias n="4" Id="(@1 @3)" />
-    <Alias n="6" Id="(@1 @3 Type=DiasAlVencimiento)" />
-    <Alias n="7" Id="(@1 @3 Type=PorcentajeDeCoberturaRevisado)" />
-    <Alias n="8" Id="(@1 @3 Type=ValoracionPorISIN)" />
-    <Alias n="9" Id="(@1 @3 Type=ValorDeMercado)" />
+    <Alias n="5" Id="(@1 @3 Type=DiasAlVencimiento)" />
+    <Alias n="6" Id="(@1 @3 Type=PorcentajeDeCoberturaRevisado)" />
+    <Alias n="7" Id="(@1 @3 Type=ValoracionPorISIN)" />
+    <Alias n="8" Id="(@1 @3 Type=ValorDeMercado)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">

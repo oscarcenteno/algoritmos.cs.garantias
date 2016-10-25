@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConTellDontAsk.DatosDeLaValoracionPorISIN">
-    <Position X="0.75" Y="2.25" Width="3.75" />
+    <Position X="3" Y="1" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAQEAAAAQARQASAAAAIAAAAEAAAAAAACAgAQ=</HashCode>
       <FileName>ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracionPorISIN.cs</FileName>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo.DatosDeLaValoracionPorISIN">
+    <Position X="5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAQEAAAAQABAAAAAAAIAAAAEAAAAAAAAAgAQ=</HashCode>
+      <FileName>ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeLaValoracionPorISIN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo.DatosDeUnISINAnotadoEnCuentaEnUDES">
+    <Position X="1.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAQAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINAnotadoEnCuentaEnUDES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo.DatosDeUnISINEnColones">
+    <Position X="9" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINEnColones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConPolimorfismo.DatosDeUnISINNoAnotadoEnCuentaEnUDES">
+    <Position X="5" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINNoAnotadoEnCuentaEnUDES.cs</FileName>
+      <NewMemberFileName>ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINEnColones.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

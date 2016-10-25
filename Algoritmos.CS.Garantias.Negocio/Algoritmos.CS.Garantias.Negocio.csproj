@@ -40,6 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\DiasAlVencimiento.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINAnotadoEnCuentaEnUDES.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINNoAnotadoEnCuentaEnUDES.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINEnColones.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\PorcentajeDeCoberturaRevisado.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\ValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\ValorDeMercado.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Monedas.cs" />
     <Compile Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
@@ -70,6 +79,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ValoracionesPorISIN\2 Con funciones\Arbol de funciones.dgml" />
+    <None Include="ValoracionesPorISIN\6 Con polimorfismo\Arbol de objetos.dgml" />
+    <None Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\Parameter Objects.cd" />
     <None Include="ValoracionesPorISIN\5 Con tell dont ask\Arbol de objetos.dgml" />
     <None Include="ValoracionesPorISIN\5 Con tell dont ask\Parameter Objects\Parameter Objects.cd" />
     <None Include="ValoracionesPorISIN\4 Con parameter object\Arbol de objetos.dgml" />
