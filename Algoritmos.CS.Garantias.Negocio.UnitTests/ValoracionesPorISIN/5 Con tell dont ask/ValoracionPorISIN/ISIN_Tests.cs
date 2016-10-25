@@ -1,7 +1,7 @@
 ﻿using Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConTellDontAsk;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.CalculosDeLaValoracionPorISIN_Tests
+namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.ValoracionPorISIN_Tests
 {
     [TestClass]
     public class ISIN_Tests : Escenarios

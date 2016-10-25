@@ -1,7 +1,7 @@
 ﻿using Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ConTellDontAsk;
 using System;
 
-namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.CalculosDeLaValoracionPorISIN_Tests
+namespace Algoritmos.CS.Garantias.Negocio.UnitTests.Valoraciones.ConTellDontAsk.ValoracionPorISIN_Tests
 {
     public class Escenarios
     {
