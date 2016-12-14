@@ -41,7 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\DiasAlVencimiento.cs" />
-    <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Monedas.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINAnotadoEnCuentaEnUDES.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINNoAnotadoEnCuentaEnUDES.cs" />
