@@ -12,4 +12,4 @@ Note la organización de las pruebas unitarias, donde no hay duplicación gracia
 Ejecute build-unit-tests.bat para compilar ejecutar todas las pruebas unitarias.
 
 # Specs
-La especificación por ejemplos la planteamos como tablas de Concordion.net para poder tener una documentación viviente (living documentation). Ejecute build-specs.bat para compilar, ejecutar y mostrar la documentación ejecutable.
+La especificación por ejemplos la planteamos como tablas de [Concordion](http://concordion.org/tutorial/csharp/html/) para poder tener una documentación viviente (living documentation). Ejecute build-specs.bat para compilar, ejecutar y mostrar la documentación ejecutable.
