@@ -177,7 +177,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValoracionesEnColonesFixture.cs" />
+    <Compile Include="ValoracionesPorISIN\ISINEnUDESAnotadosEnCuenta\ISINEnUDESAnotadosEnCuentaFixture.cs" />
+    <Compile Include="ValoracionesPorISIN\ISINEnUDESNoAnotadosEnCuenta\ISINEnUDESNoAnotadosEnCuentaFixture.cs" />
+    <Compile Include="ValoracionesPorISIN\ISINEnDolares\ISINEnDolaresFixture.cs" />
+    <Compile Include="ValoracionesPorISIN\ValoracionesPorISINFixture.cs" />
+    <Compile Include="ValoracionesPorISIN\ISINEnColones\ISINEnColonesFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="algoritmos.cs.garantias.specs.config">
@@ -187,7 +191,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="concordion.css" />
-    <EmbeddedResource Include="ValoracionesEnColones.html" />
+    <EmbeddedResource Include="ValoracionesPorISIN\ISINEnUDESNoAnotadosEnCuenta\ISINEnUDESNoAnotadosEnCuenta.html" />
+    <EmbeddedResource Include="ValoracionesPorISIN\ISINEnUDESAnotadosEnCuenta\ISINEnUDESAnotadosEnCuenta.html" />
+    <EmbeddedResource Include="ValoracionesPorISIN\ISINEnDolares\ISINEnDolares.html" />
+    <EmbeddedResource Include="ValoracionesPorISIN\ValoracionesPorISIN.html" />
+    <EmbeddedResource Include="ValoracionesPorISIN\ISINEnColones\ISINEnColones.html" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algoritmos.CS.Garantias.Negocio\Algoritmos.CS.Garantias.Negocio.csproj">

@@ -1,0 +1,103 @@
+﻿<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<head>
+    <link href="../../concordion.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+    <h1>ISIN En Colones</h1>
+
+    <div class="example">
+        <h3>Ejemplo: cumple los días mínimos al vencimiento del emisor</h3>
+
+        <p>
+            Al valorar el siguiente ISIN:
+
+            <table>
+                <tr>
+                    <th>ISIN</th>
+                    <th>Fecha actual</th>
+                    <th>Fecha de vencimiento del valor oficial</th>
+                    <th>Dias minimos al vencimiento del emisor</th>
+                    <th>Porcentaje de cobertura</th>
+                    <th>Precio limpio del vector de precios</th>
+                    <th>Monto nominal del saldo</th>
+                </tr>
+                <tr>
+                    <td><span concordion:set="#ISIN">HDA000000000001</span></td>
+                    <td><span concordion:set="#FechaActual">01/01/2016</span></td>
+                    <td><span concordion:set="#FechaDeVencimientoDelValorOficial">06/06/2016</span></td>
+                    <td><span concordion:set="#DiasMinimosAlVencimientoDelEmisor">7</span></td>
+                    <td><span concordion:set="#PorcentajeDeCobertura">0,8</span></td>
+                    <td><span concordion:set="#PrecioLimpioDelVectorDePrecios">80</span></td>
+                    <td><span concordion:set="#MontoNominalDelSaldo">3578000</span></td>
+                </tr>
+            </table>
+
+           los resultados de la <span concordion:execute="#valoracion = GenereLaValoracion(#ISIN, #FechaActual, #FechaDeVencimientoDelValorOficial, #DiasMinimosAlVencimientoDelEmisor, #PorcentajeDeCobertura, #PrecioLimpioDelVectorDePrecios, #MontoNominalDelSaldo)">valoracion</span> son:
+
+            <table>
+                <tr>
+                    <th>ISIN</th>
+                    <th>Porcentaje de cobertura</th>
+                    <th>Valor de mercado</th>
+                    <th>Aporte de garantia</th>
+                </tr>
+                <tr>
+                    <td><span concordion:assert-equals="#valoracion.ISIN">HDA000000000001</span></td>
+                    <td><span concordion:assert-equals="#valoracion.PorcentajeCobertura">0,8</span></td>
+                    <td><span concordion:assert-equals="#valoracion.ValorDeMercado">2862400,0</span></td>
+                    <td><span concordion:assert-equals="#valoracion.AporteDeGarantia">2289920,00</span></td>
+                </tr>
+            </table>
+        </p>
+    </div>
+
+    <div class="example">
+        <h3>Ejemplo: no cumple los días mínimos al vencimiento del emisor</h3>
+
+        <p>
+            Al valorar el siguiente ISIN:
+
+            <table>
+                <tr>
+                    <th>ISIN</th>
+                    <th>Fecha actual</th>
+                    <th>Fecha de vencimiento del valor oficial</th>
+                    <th>Dias minimos al vencimiento del emisor</th>
+                    <th>Porcentaje de cobertura</th>
+                    <th>Precio limpio del vector de precios</th>
+                    <th>Monto nominal del saldo</th>
+                </tr>
+                <tr>
+                    <td><span concordion:set="#ISIN">HDA000000000001</span></td>
+                    <td><span concordion:set="#FechaActual">06/06/2016</span></td>
+                    <td><span concordion:set="#FechaDeVencimientoDelValorOficial">06/06/2016</span></td>
+                    <td><span concordion:set="#DiasMinimosAlVencimientoDelEmisor">7</span></td>
+                    <td><span concordion:set="#PorcentajeDeCobertura">0,8</span></td>
+                    <td><span concordion:set="#PrecioLimpioDelVectorDePrecios">80</span></td>
+                    <td><span concordion:set="#MontoNominalDelSaldo">3578000</span></td>
+                </tr>
+            </table>
+
+            los resultados de la <span concordion:execute="#valoracion = GenereLaValoracion(#ISIN, #FechaActual, #FechaDeVencimientoDelValorOficial, #DiasMinimosAlVencimientoDelEmisor, #PorcentajeDeCobertura, #PrecioLimpioDelVectorDePrecios, #MontoNominalDelSaldo)">valoracion</span> son:
+
+            <table>
+                <tr>
+                    <th>ISIN</th>
+                    <th>Porcentaje de cobertura</th>
+                    <th>Valor de mercado</th>
+                    <th>Aporte de garantia</th>
+                </tr>
+                <tr>
+                    <td><span concordion:assert-equals="#valoracion.ISIN">HDA000000000001</span></td>
+                    <td><span concordion:assert-equals="#valoracion.PorcentajeCobertura">0</span></td>
+                    <td><span concordion:assert-equals="#valoracion.ValorDeMercado">2862400,0</span></td>
+                    <td><span concordion:assert-equals="#valoracion.AporteDeGarantia">0,0</span></td>
+                </tr>
+            </table>
+        </p>
+    </div>
+</body>
+</html>

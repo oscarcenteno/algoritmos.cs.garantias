@@ -2,14 +2,14 @@
 using Concordion.NET.Integration;
 using System;
 
-namespace Algoritmos.CS.Garantias.Specs
+namespace Algoritmos.CS.Garantias.Specs.ValoracionesPorISIN.ISINEnUDESNoAnotadosEnCuenta
 {
     [ConcordionTest]
-    public class ValoracionesEnColonesFixture
+    public class ISINEnUDESNoAnotadosEnCuentaFixture
     {
         public ValoracionPorISIN GenereLaValoracion(string ISIN, string FechaActual, string FechaDeVencimientoDelValorOficial, int DiasMinimosAlVencimientoDelEmisor, decimal PorcentajeDeCobertura, decimal PrecioLimpioDelVectorDePrecios, decimal MontoNominalDelSaldo)
         {
-            DatosDeUnISINEnColones losDatos = new DatosDeUnISINEnColones();
+            DatosDeUnISINNoAnotadoEnCuentaEnUDES losDatos = new DatosDeUnISINNoAnotadoEnCuentaEnUDES();
             losDatos.ISIN = ISIN;
             losDatos.FechaActual = DateTime.Parse(FechaActual);
             losDatos.FechaDeVencimientoDelValorOficial = DateTime.Parse(FechaDeVencimientoDelValorOficial);

@@ -1,0 +1,59 @@
+﻿<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<head>
+    <link href="../concordion.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+    <h1>Valoraciones por ISIN</h1>
+
+    <p>
+        Un ISIN es una emisión de valores que serán puestos en garantía por las operaciones de la entidad.
+        Cuando se valora un ISIN se genera la siguiente información:
+    </p>
+
+    <table>
+        <tr>
+            <th>Campo</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>ISIN</td>
+            <td>El número que identifica a la emisión</td>
+        </tr>
+        <tr>
+            <td>Porcentaje de cobertura</td>
+            <td>El porcentaje con que se valoró el aporte</td>
+        </tr>
+        <tr>
+            <td>Valor de mercado</td>
+            <td>El monto valorado para calcular el aporte</td>
+        </tr>
+        <tr>
+            <td>Aporte de garantia</td>
+            <td>El monto con que se valora la emisión</td>
+        </tr>
+    </table>
+
+
+    <p>
+        Hay cuatro tipos de emisiones:
+        <ol>
+            <li>
+                <a concordion:run="concordion.net" href="./ISINEnColones/ISINEnColones.html">En colones</a>
+            </li>
+            <li>
+                <a concordion:run="concordion.net" href="./ISINEnDolares/ISINEnDolares.html">En dólares</a>
+            </li>
+            <li>
+                <a concordion:run="concordion.net" href="./ISINEnUDESAnotadosEnCuenta/ISINEnUDESAnotadosEnCuenta.html">En UDES anotados en cuenta</a>
+            </li>
+            <li>
+                <a concordion:run="concordion.net" href="./ISINEnUDESNoAnotadosEnCuenta/ISINEnUDESNoAnotadosEnCuenta.html">En UDES no anotados en cuenta</a>
+            </li>
+
+        </ol>
+    </p>
+</body>
+</html>
