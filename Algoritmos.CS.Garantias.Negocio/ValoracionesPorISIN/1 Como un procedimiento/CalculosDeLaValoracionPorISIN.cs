@@ -28,7 +28,7 @@ namespace Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ComoUnProcedimient
             decimal elMontoConvertido;
             if (elTipoDeMoneda == Monedas.UDES & elSaldoEstaAnotadoEnCuenta)
                 // Los saldos en UDES se colonizan según el tipo de cambio de hoy, si no, el de ayer.
-                if (elTipoDeCambioDeUDESDeHoy = 0)
+                if (elTipoDeCambioDeUDESDeHoy == 0)
                     elMontoConvertido = elMontoNominalDelSaldo * elTipoDeCambioDeUDESDeHoy;
                 else
                     elMontoConvertido = elMontoNominalDelSaldo * elTipoDeCambioDeUDESDeAyer;
