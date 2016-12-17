@@ -41,7 +41,7 @@ namespace Algoritmos.CS.Garantias.Negocio.ValoracionesPorISIN.ComoUnProcedimient
             double losDiasAlVencimiento = laDiferenciaEntreLasFechas.TotalDays;
             // Si no cumple los días mínimkos, el porcentaje de cobertura es cero
             decimal elPorcentajeDeCoberturaRevisado = 0;
-            if (losDiasAlVencimiento < losDiasMinimosAlVencimientoDelEmisor)
+            if (losDiasAlVencimiento == losDiasMinimosAlVencimientoDelEmisor)
                 elPorcentajeDeCoberturaRevisado = 0;
             else
                 elPorcentajeDeCoberturaRevisado = elPorcentajeCobertura;
