@@ -168,8 +168,8 @@ ins {
   </head>
   <body>
     <span class="breadcrumbs">
-      <a href="../ValoracionesPorISIN.html">Valoraciones por ISIN</a> &gt;</span>
-    <h1>ISIN En Colones</h1>
+      <a href="../ValoracionesPorISIN.html">Valoración de emisiones por ISIN</a> &gt;</span>
+    <h1>Valoración de un ISIN En Colones</h1>
     <div class="example">
       <h3>Ejemplo: cumple los días mínimos al vencimiento del emisor</h3>
       <p>
@@ -179,7 +179,8 @@ ins {
 
            los resultados de la <span concordion:execute="#valoracion = GenereLaValoracion(#ISIN, #FechaActual, #FechaDeVencimientoDelValorOficial, #DiasMinimosAlVencimientoDelEmisor, #PorcentajeDeCobertura, #PrecioLimpioDelVectorDePrecios, #MontoNominalDelSaldo)">valoracion</span> son:
 
-            <table><tr><th>ISIN</th><th>Porcentaje de cobertura</th><th>Valor de mercado</th><th>Aporte de garantia</th></tr><tr><td><span concordion:assert-equals="#valoracion.ISIN" class="success">HDA000000000001</span></td><td><span concordion:assert-equals="#valoracion.PorcentajeCobertura" class="success">0,8</span></td><td><span concordion:assert-equals="#valoracion.ValorDeMercado" class="success">2862400,0</span></td><td><span concordion:assert-equals="#valoracion.AporteDeGarantia" class="success">2289920,00</span></td></tr></table></p>
+            <table><tr><th>ISIN</th><th>Porcentaje de cobertura</th><th>Valor de mercado</th><th>Aporte de garantia</th></tr><tr><td><span concordion:assert-equals="#valoracion.ISIN" class="success">HDA000000000001</span></td><td><span concordion:assert-equals="#valoracion.PorcentajeCobertura" class="success">0,8</span></td><td><span concordion:assert-equals="#valoracion.ValorDeMercado" class="failure"><del class="expected">2862500,0</del>
+<ins class="actual">2862400,0</ins></span></td><td><span concordion:assert-equals="#valoracion.AporteDeGarantia" class="success">2289920,00</span></td></tr></table></p>
     </div>
     <div class="example">
       <h3>Ejemplo: no cumple los días mínimos al vencimiento del emisor</h3>
