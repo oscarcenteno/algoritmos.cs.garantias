@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ValoracionesPorISIN\0 Dificil de probar\CalculosDeLaValoracionPorISIN.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Dificil de probar\Monedas.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Dificil de probar\RepositorioDeGarantias.cs" />
+    <Compile Include="ValoracionesPorISIN\0 Dificil de probar\RepositorioDeTiposDeCambio.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\DiasAlVencimiento.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeLaValoracionPorISIN.cs" />
     <Compile Include="ValoracionesPorISIN\6 Con polimorfismo\Parameter Objects\DatosDeUnISINAnotadoEnCuentaEnUDES.cs" />
